@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.6;
+    background-color: hsl(218, 23%, 16%);
+
+}
+
+img{
+
+    width: 100%;
+    height: auto;
+}
+
+h6{
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: hsla(150, 100%, 66%, 0.786);
+    margin-bottom: 20px;
+}
+
+p{
+
+    font-size: 20px;
+    color:hsl(193, 38%, 86%);
+    margin-bottom: 30px;
+}
+
+.container{
+
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 200px 40px;
+    display: grid;
+    place-items: center;
+}
+
+.card{
+
+    background-color: hsl(217, 19%, 24%);
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    margin-top: 200px;
+    position: absolute;
+    
+
+}
+
+
+
+.btn{
+
+    background-color: hsl(150, 100%, 66%);
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    left: 177px;
+    bottom: -20px;
+    
+
+}
+
+.btn:hover{
+
+    cursor: pointer;
+    box-shadow: 0px 0px 50px hsl(150, 100%, 66%);
+}
+
+.btn img{
+
+    width: 20px;
+    height: 20px;
+}
+
+.divider{
+
+    margin-top: 20px;
+}
+
+
+@media (max-width:400px) {
+
+    .card {
+
+        margin: 0 40px;
+    }
+    
+}
