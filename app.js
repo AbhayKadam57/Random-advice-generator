@@ -15,7 +15,7 @@ btn.addEventListener("click",(e)=>{
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "free-famous-quotes.p.rapidapi.com",
-		"x-rapidapi-key": "0a58c523efmsh5fa9bfaabaf56ccp15310fjsn187501fba186"
+		"x-rapidapi-key": "
 	}
 })
 .then(response=>response.json())
